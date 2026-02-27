@@ -35,7 +35,7 @@ const Index = () => {
           className="mb-6 text-5xl font-bold leading-tight tracking-tight text-foreground sm:text-7xl"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Votre Nom
+          Baye Abdoulaye Chimére Touré
         </motion.h1>
 
         <motion.p
