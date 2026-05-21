@@ -44,8 +44,8 @@ const Index = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mx-auto mb-10 max-w-lg text-lg leading-relaxed text-muted-foreground"
         >
-          Développeur web fullstack passionné par la création d'expériences utilisateur
-          intuitives et accessibles.
+          Développeur web fullstack formé par GOMYCODE.sn passionné par la création
+          d'expériences utilisateur intuitives et accessibles.
         </motion.p>
 
         <motion.div
