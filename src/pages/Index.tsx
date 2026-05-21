@@ -18,12 +18,12 @@ const Index = () => {
       {/* Glow */}
       <div className="pointer-events-none absolute left-1/2 top-1/3 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/10 blur-[120px]" />
 
-      <div className="relative z-10 max-w-2xl text-center">
+      <div className="relative z-10 max-w-3xl text-center">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-4 text-sm font-medium tracking-[0.3em] uppercase text-primary"
+          className="mb-8 text-xs font-semibold tracking-[0.35em] uppercase text-primary"
         >
           Développeur Web Fullstack
         </motion.p>
@@ -32,17 +32,25 @@ const Index = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="mb-6 text-5xl font-bold leading-tight tracking-tight text-foreground sm:text-7xl"
+          className="mb-2 text-5xl font-bold leading-[1.1] tracking-tight text-foreground sm:text-7xl"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Baye Abdoulaye Chimére Touré
         </motion.h1>
 
+        {/* Decorative line */}
+        <motion.div
+          initial={{ scaleX: 0 }}
+          animate={{ scaleX: 1 }}
+          transition={{ duration: 0.6, delay: 0.25 }}
+          className="mx-auto mb-10 h-[2px] w-24 bg-primary/60"
+        />
+
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="mx-auto mb-10 max-w-lg text-lg leading-relaxed text-muted-foreground"
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="mx-auto mb-14 max-w-xl text-xl leading-[1.8] text-muted-foreground"
         >
           Développeur web fullstack formé par GOMYCODE.sn passionné par la création
           d'expériences utilisateur intuitives et accessibles.
@@ -51,16 +59,16 @@ const Index = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
         >
           <Button
             variant="hero"
             size="lg"
-            className="group"
+            className="group text-base tracking-wide"
             onClick={() => window.open("#projets", "_self")}
           >
             Voir mes projets
-            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            <ArrowRight className="ml-2.5 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </Button>
         </motion.div>
       </div>
