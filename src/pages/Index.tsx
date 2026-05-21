@@ -25,7 +25,7 @@ const Index = () => {
           transition={{ duration: 0.5 }}
           className="mb-4 text-sm font-medium tracking-[0.3em] uppercase text-primary"
         >
-          Développeuse Frontend
+          Développeur Web Fullstack
         </motion.p>
 
         <motion.h1
@@ -44,7 +44,7 @@ const Index = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mx-auto mb-10 max-w-lg text-lg leading-relaxed text-muted-foreground"
         >
-          Développeuse frontend passionnée par la création d'expériences utilisateur
+          Développeur web fullstack passionné par la création d'expériences utilisateur
           intuitives et accessibles.
         </motion.p>
 
